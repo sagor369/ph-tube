@@ -160,12 +160,12 @@ const vidioOpereton = (videos) => {
               <div class="card bg-base-100">
         <figure class="relative">
           <img
-            class="h-50 object-cover"
+            class="md:h-50 object-cover"
             src="${video.thumbnail}"
             alt="Shoes"
           />
           <span
-            class="absolute bottom-2 right-2 bg-[#2a1717] text-white p-1 rounded-sm"
+            class="absolute bottom-2 right-2 bg-[#2a1717] text-white p-1 rounded-sm hidden sm:block"
             >3hrs 56 min ago</span
           >
         </figure>
